@@ -1,0 +1,58 @@
+#background{
+    background-color: rgba(255, 255, 255, 0.3);
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+   -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index:99;
+}
+.foreground {
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+  
+    z-index:99;
+    height: 60px;
+    width: 100%;
+  }
+
+
+.logo{
+    height: 60px;
+    float: left;
+}
+
+.whatsapp {
+    height: 60px;
+    float: right;
+    align-items: flex-end;
+    width: 35%;
+}
+.whatsapp img {
+    height: 30px !important;
+    padding-left: 4px;
+    padding-right: 4px;
+    filter: opacity(0.75);
+}
+
+.whatsapp button {
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.29);
+    color: #00000095;
+    padding: 2%;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 3px ;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+
+    
+
+}
